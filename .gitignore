@@ -1,0 +1,19 @@
+# Postgres artefacts
+*.log
+*.backup
+*.tar.gz
+*.tar
+archive/
+basebackup/
+pgdata/
+wal_archive/
+
+# Secrets
+*.key
+*.crt
+.pgpass
+*.pem
+
+# Editor / OS
+.vscode/
+.DS_Store
